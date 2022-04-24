@@ -1,11 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-#app {
-  @apply text-center mt-10;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  background-image: url("https://www.xtrafondos.com/wallpapers/resized/monkey-d-luffy-de-one-piece-4017.jpg?s=large");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+  color: var(--gray);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
 }
