@@ -133,3 +133,53 @@ h1 {
     transform: rotateY(0deg);
   }
 }
+
+/*------------------------------------------------- 
+*-------------------RESPONSIVE--------------------- 
+-------------------------------------------------*/
+
+@media screen and (min-width: 730px) {
+  :root {
+    --w: calc(70vw / 6);
+    --h: calc(70vh / 4);
+  }
+
+  body {
+    font-size: 1.2rem;
+  }
+
+  .cont-language {
+    margin-top: 2vw;
+    margin-left: 80vw;
+  }
+
+  .language {
+    top: -0.5vw;
+  }
+
+  h1 {
+    margin: 1rem;
+  }
+
+  .cont-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    margin-top: 0;
+  }
+
+  .btn {
+    min-width: 10vw;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .btn-mix {
+    min-width: 10vw;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
