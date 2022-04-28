@@ -92,7 +92,7 @@ function deselect(selections) {
       cont += 2;
 
       if (cont == level) {
-        Swal.fire("Has Ganado!", "Te la rifates XD", "success");
+        Swal.fire("Has Ganado!", "Felicidades!", "success");
         cont = 0;
       }
     }
