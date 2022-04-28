@@ -46,18 +46,6 @@ h1 {
   margin: 0.3rem 0rem;
 }
 
-.btn {
-  min-width: 25vw;
-  cursor: pointer;
-  background: var(--gradient);
-  padding: 0.4rem 0.2rem;
-  margin: 0.3rem;
-  border-radius: 2rem;
-  border: var(--gray) 0.3rem solid;
-  text-align: center;
-  color: var(--gray);
-  font-size: 1rem;
-}
 
 .card-area,
 .card,
